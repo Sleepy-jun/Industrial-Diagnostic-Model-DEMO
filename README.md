@@ -8,6 +8,14 @@ This project is a demonstration platform for large language models in industrial
 [![Model](https://img.shields.io/badge/LLM-Qwen2.5--14B--Int4-purple)](https://huggingface.co/Qwen)
 [![Device](https://img.shields.io/badge/Edge-RTX%204090-orange)](https://www.nvidia.com/)
 
+---
+
+## 🎥 Video Demo 
+
+Click the button below to watch the full demonstration:
+
+[![Watch on Bilibili](https://img.shields.io/badge/Bilibili-Watch_Video-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV1cTqUBYER8)
+
 ##  Overview
 
 **Roto-LLM-Agent** is an intelligent diagnostic system designed for **isolated industrial environments** (e.g., ocean-going vessels, remote wind farms) where internet connectivity is limited or unavailable. 
