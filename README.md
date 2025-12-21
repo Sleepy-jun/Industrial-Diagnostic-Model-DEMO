@@ -26,6 +26,7 @@ The system integrates a generic cognitive core (LLM) with a specialized percepti
 The agent can autonomously navigate and inspect raw industrial data files (CSV/Metadata) to understand the operating conditions before diagnosis.
 - **Capability:** Reads metadata, checks sensor configurations, and summarizes dataset structures.
 - **User Prompt Example:** *"Check what is inside the test metadata file."*
+  
 ![Data Inspection](https://github.com/user-attachments/files/24277107/capture_20251221123452450.bmp)
 
 
@@ -33,6 +34,7 @@ The agent can autonomously navigate and inspect raw industrial data files (CSV/M
 Bridge the gap between raw numbers and visual intuition. The system dynamically generates high-resolution time-domain waveform plots from compressed signal files (`.npz`).
 - **Capability:** Parses vibration data, applies visualization standards (customized specifically for periodic mechanical signals), and renders high-quality waveform images for user review.
 - **User Prompt Example:** *"Plot the signal waveform for row 5 to check for periodic impacts."*
+  
 ![Signal Visualization](https://github.com/user-attachments/files/24277108/capture_20251221123536918.bmp)
 
 
@@ -41,6 +43,7 @@ At the core is a specialized **Multi-Task CNN-Transformer Hybrid Model** optimiz
 - **Capability:** The LLM invokes the backend inference engine to classify faults across **Rotor** (6 classes) and **Bearing** (8 classes) components simultaneously.
 - **Flexibility:** Supports both **Batch Evaluation** (assessing overall fleet health) and **Specific Instance Diagnosis** (pinpointing issues in a specific timestamp).
 - **User Prompt Example:** *"Run the fault diagnosis model for the 3rd data sample."*
+  
 ![Fault Diagnosis](https://github.com/user-attachments/files/24277110/capture_20251221123618404.bmp)
 
 
@@ -49,5 +52,6 @@ Going beyond simple classification labels, the system utilizes the LLM's vast in
 - **Capability:** After obtaining the diagnosis result (e.g., *Inner Race Fault* + *Rotor Unbalance*), the agent analyzes the combination of states to infer potential physical causes (e.g., lubrication failure, fatigue spalling, or installation misalignment).
 - **Value:** Turns "Black Box" predictions into actionable maintenance insights.
 - **User Prompt Example:** *"The diagnosis shows an Inner Race fault combined with misalignment. What are the likely physical causes for this specific combination on a high-speed shaft?"*
+
 ![Root Cause Analysis](https://github.com/user-attachments/files/24277111/capture_20251221123702477.bmp)
 
