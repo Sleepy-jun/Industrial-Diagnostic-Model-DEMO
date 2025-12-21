@@ -10,19 +10,20 @@ This project is a demonstration platform for large language models in industrial
 
 ---
 
+## 🎥 Video Demo 
+
+Click to watch the full demonstration:
+
+[![视频封面](https://github.com/user-attachments/files/24277220/capture_20251221152012560.bmp)](https://www.bilibili.com/video/BV1cTqUBYER8)
+
+
 ##  Overview
 
 **Roto-LLM-Agent** is an intelligent diagnostic system designed for **isolated industrial environments** (e.g., ocean-going vessels, remote wind farms) where internet connectivity is limited or unavailable. 
 
 By leveraging the **Function Calling** capabilities of quantized Large Language Models (Qwen 2.5-14B-Int4), this system acts as a "Virtual Mechanical Engineer." It autonomously orchestrates specialized Python tools to process high-frequency vibration signals and provides comprehensive fault analysis without relying on cloud resources.
 
-
-## 🎥 Video Demo 
-
-Click to watch the full demonstration:
-
-[![Overview](https://github.com/user-attachments/files/24277103/capture_20251221123419892.bmp)](https://www.bilibili.com/video/BV1cTqUBYER8)
-
+![Overview](https://github.com/user-attachments/files/24277103/capture_20251221123419892.bmp)
 
 
 ##  Key Features
