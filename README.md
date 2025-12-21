@@ -10,11 +10,13 @@ This project is a demonstration platform for large language models in industrial
 
 ---
 
-## 🎥 Video Demo 
+## 🎥 Video Demo
 
 Click to watch the full demonstration:
 
-[![视频封面](https://github.com/user-attachments/files/24277220/capture_20251221152012560.bmp)](https://www.bilibili.com/video/BV1cTqUBYER8)
+<a href="https://www.bilibili.com/video/BV1cTqUBYER8" target="_blank">
+    <img src="https://github.com/user-attachments/files/24277220/capture_20251221152012560.bmp" width="600" alt="视频封面点击播放">
+</a>
 
 
 ##  Overview
