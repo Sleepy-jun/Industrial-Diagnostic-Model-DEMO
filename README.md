@@ -16,7 +16,7 @@ This project is a demonstration platform for large language models in industrial
 
 By leveraging the **Function Calling** capabilities of quantized Large Language Models (Qwen 2.5-14B-Int4), this system acts as a "Virtual Mechanical Engineer." It autonomously orchestrates specialized Python tools to process high-frequency vibration signals and provides comprehensive fault analysis without relying on cloud resources.
 
-![Overview](https://github.com/user-attachments/files/24277103/capture_20251221123419892.bmp)
+![封面.bmp](https://github.com/user-attachments/files/25914448/default.bmp)
 
 
 ##  Key Features
@@ -28,7 +28,7 @@ The agent can autonomously navigate and inspect raw industrial data files (CSV/M
 - **Capability:** Reads metadata, checks sensor configurations, and summarizes dataset structures.
 - **User Prompt Example:** *"Check what is inside the test metadata file."*
   
-![Data Inspection](https://github.com/user-attachments/files/24277107/capture_20251221123452450.bmp)
+![1](https://github.com/user-attachments/assets/56ff2e3e-7a23-4e8f-8015-3edbf4a6d9c6)
 
 
 ### 2.  Signal Visualization & Analysis
@@ -36,7 +36,7 @@ Bridge the gap between raw numbers and visual intuition. The system dynamically 
 - **Capability:** Parses vibration data, applies visualization standards (customized specifically for periodic mechanical signals), and renders high-quality waveform images for user review.
 - **User Prompt Example:** *"Plot the signal waveform for row 5 to check for periodic impacts."*
   
-![Signal Visualization](https://github.com/user-attachments/files/24277108/capture_20251221123536918.bmp)
+![2](https://github.com/user-attachments/assets/c09936ec-0445-42a2-8bda-b921335f1fad)
 
 
 ### 3.  Deep Learning-Based Fault Diagnosis
@@ -45,7 +45,7 @@ At the core is a specialized **Multi-Task CNN-Transformer Hybrid Model** optimiz
 - **Flexibility:** Supports both **Batch Evaluation** (assessing overall fleet health) and **Specific Instance Diagnosis** (pinpointing issues in a specific timestamp).
 - **User Prompt Example:** *"Run the fault diagnosis model for the 3rd data sample."*
   
-![Fault Diagnosis](https://github.com/user-attachments/files/24277110/capture_20251221123618404.bmp)
+![3](https://github.com/user-attachments/assets/761a7f3c-9f30-41e2-87ee-36996082784b)
 
 
 ### 4.  Root Cause Analysis & Traceability (Fault Sourcing)
@@ -54,5 +54,5 @@ Going beyond simple classification labels, the system utilizes the LLM's vast in
 - **Value:** Turns "Black Box" predictions into actionable maintenance insights.
 - **User Prompt Example:** *"The diagnosis shows an Inner Race fault combined with misalignment. What are the likely physical causes for this specific combination on a high-speed shaft?"*
 
-![Root Cause Analysis](https://github.com/user-attachments/files/24277111/capture_20251221123702477.bmp)
+![4](https://github.com/user-attachments/assets/dd1ce292-7f65-4c1a-b64d-a79b5deb19e4)
 
