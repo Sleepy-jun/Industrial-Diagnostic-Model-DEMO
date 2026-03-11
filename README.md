@@ -28,7 +28,7 @@ The agent can autonomously navigate and inspect raw industrial data files (CSV/M
 - **Capability:** Reads metadata, checks sensor configurations, and summarizes dataset structures.
 - **User Prompt Example:** *"Check what is inside the test metadata file."*
   
-![1](https://github.com/user-attachments/assets/56ff2e3e-7a23-4e8f-8015-3edbf4a6d9c6)
+![1-loop](https://github.com/user-attachments/assets/98e0d10a-29b3-44ef-92ac-00473433a3f3)
 
 
 ### 2.  Signal Visualization & Analysis
@@ -36,7 +36,7 @@ Bridge the gap between raw numbers and visual intuition. The system dynamically 
 - **Capability:** Parses vibration data, applies visualization standards (customized specifically for periodic mechanical signals), and renders high-quality waveform images for user review.
 - **User Prompt Example:** *"Plot the signal waveform for row 5 to check for periodic impacts."*
   
-![2](https://github.com/user-attachments/assets/0624cd0c-de68-4118-a91e-46376337d7cc)
+![2-loop](https://github.com/user-attachments/assets/8c3997c6-147c-44cd-a6cd-8e31d8c9c8e5)
 
 
 ### 3.  Deep Learning-Based Fault Diagnosis
@@ -45,7 +45,7 @@ At the core is a specialized **Multi-Task CNN-Transformer Hybrid Model** optimiz
 - **Flexibility:** Supports both **Batch Evaluation** (assessing overall fleet health) and **Specific Instance Diagnosis** (pinpointing issues in a specific timestamp).
 - **User Prompt Example:** *"Run the fault diagnosis model for the 3rd data sample."*
 
-![3](https://github.com/user-attachments/assets/008edcdf-0d18-4365-8351-17e6a3c02006)
+![3-loop](https://github.com/user-attachments/assets/6a1a6acf-5cff-43b9-ad69-af6f03ffc729)
 
 
 ### 4.  Root Cause Analysis & Traceability (Fault Sourcing)
@@ -54,6 +54,6 @@ Going beyond simple classification labels, the system utilizes the LLM's vast in
 - **Value:** Turns "Black Box" predictions into actionable maintenance insights.
 - **User Prompt Example:** *"The diagnosis shows an Inner Race fault combined with misalignment. What are the likely physical causes for this specific combination on a high-speed shaft?"*
 
-![4](https://github.com/user-attachments/assets/f431b9ae-77e2-4d39-b8c3-b4a5027db3b6)
+![4-loop](https://github.com/user-attachments/assets/e6aa9f72-6f77-4439-91b0-12fa0707d406)
 
 
