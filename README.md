@@ -36,7 +36,7 @@ Bridge the gap between raw numbers and visual intuition. The system dynamically 
 - **Capability:** Parses vibration data, applies visualization standards (customized specifically for periodic mechanical signals), and renders high-quality waveform images for user review.
 - **User Prompt Example:** *"Plot the signal waveform for row 5 to check for periodic impacts."*
   
-![2](https://github.com/user-attachments/assets/c09936ec-0445-42a2-8bda-b921335f1fad)
+![2](https://github.com/user-attachments/assets/0624cd0c-de68-4118-a91e-46376337d7cc)
 
 
 ### 3.  Deep Learning-Based Fault Diagnosis
@@ -44,8 +44,8 @@ At the core is a specialized **Multi-Task CNN-Transformer Hybrid Model** optimiz
 - **Capability:** The LLM invokes the backend inference engine to classify faults across **Rotor** (6 classes) and **Bearing** (8 classes) components simultaneously.
 - **Flexibility:** Supports both **Batch Evaluation** (assessing overall fleet health) and **Specific Instance Diagnosis** (pinpointing issues in a specific timestamp).
 - **User Prompt Example:** *"Run the fault diagnosis model for the 3rd data sample."*
-  
-![3](https://github.com/user-attachments/assets/761a7f3c-9f30-41e2-87ee-36996082784b)
+
+![3](https://github.com/user-attachments/assets/008edcdf-0d18-4365-8351-17e6a3c02006)
 
 
 ### 4.  Root Cause Analysis & Traceability (Fault Sourcing)
@@ -54,5 +54,6 @@ Going beyond simple classification labels, the system utilizes the LLM's vast in
 - **Value:** Turns "Black Box" predictions into actionable maintenance insights.
 - **User Prompt Example:** *"The diagnosis shows an Inner Race fault combined with misalignment. What are the likely physical causes for this specific combination on a high-speed shaft?"*
 
-![4](https://github.com/user-attachments/assets/dd1ce292-7f65-4c1a-b64d-a79b5deb19e4)
+![4](https://github.com/user-attachments/assets/f431b9ae-77e2-4d39-b8c3-b4a5027db3b6)
+
 
