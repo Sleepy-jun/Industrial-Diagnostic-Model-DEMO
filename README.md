@@ -53,13 +53,13 @@ Through the integrated left-panel UI, operators can request an immediate, high-l
 <img width="1230" height="640" alt="3 现状分析-1" src="https://github.com/user-attachments/assets/2f2a7e16-8a88-4d48-8d33-f1c2ca9bd8f1" />
 
 
-### 4. One-Click Root Cause Traceability (Fault Sourcing)
+### 4. One-Click Root Cause Traceability
 Going far beyond simple classification labels, the system utilizes the LLM's vast internal knowledge base to perform physically grounded traceability. By clicking the traceability button, the agent analyzes the specific combination of detected states (e.g., an *Inner Race Fault* combined with *Rotor Unbalance*). It then infers the underlying physical mechanisms that likely caused this specific combination on a high-speed shaft—such as lubrication failure, fatigue spalling, or installation misalignment. This feature successfully turns "Black Box" neural network predictions into transparent, actionable maintenance insights.
 
 <img width="1230" height="640" alt="4 现状溯源-1" src="https://github.com/user-attachments/assets/eed5a95c-4790-48ac-88da-e8eefc65ac20" />
 
 
-### 5. Conversational Fault Analysis (Via Natural Language)
+### 5. Conversational Fault Analysis
 Users are not restricted to predefined UI buttons; they can utilize the chat interface to query the system regarding specific historical anomalies. By utilizing natural language prompts (e.g., *"Check what is inside the test metadata file for the most recent fault"* or *"Run the fault diagnosis model for the 3rd data sample"*), the LLM utilizes Function Calling to dynamically invoke the required Python analysis tools. It retrieves the exact event logs and renders customized diagnostic analyses on the fly, allowing for deep-dive investigations into specific timestamps.
 
 <img width="1230" height="640" alt="5 近况故障分析-1" src="https://github.com/user-attachments/assets/829894a0-3d27-4cdb-8706-bf7b28ca94e2" />
