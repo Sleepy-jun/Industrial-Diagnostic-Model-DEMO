@@ -11,15 +11,6 @@ This project is a demonstration platform for large language models in industrial
 
 ---
 
-## 🎥 Video Demonstration
-
-Watch the full system demonstration to see the Roto-LLM-Agent in action, featuring real-time monitoring and conversational diagnostics.
-
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/maxresdefault.jpg)](YOUR_YOUTUBE_LINK_HERE)
-*(Click the image above to view the demonstration on YouTube)*
-
----
-
 ## Overview
 
 **Roto-LLM-Agent** is an intelligent diagnostic system designed for **isolated industrial environments** (e.g., ocean-going vessels, remote wind farms) where internet connectivity is limited or unavailable. 
@@ -30,6 +21,12 @@ By leveraging the **Function Calling** capabilities of quantized Large Language 
 
 
 ---
+## 🎥 Video Demonstration
+
+Watch the full system demonstration to see the Roto-LLM-Agent in action, featuring real-time monitoring and conversational diagnostics.
+
+[![Watch the video](https://img.youtube.com/vi/lgy9NbdRlBE/maxresdefault.jpg)](https://youtu.be/lgy9NbdRlBE)
+*(Click the image above to view the demonstration on YouTube)*
 
 ## Key Features
 
