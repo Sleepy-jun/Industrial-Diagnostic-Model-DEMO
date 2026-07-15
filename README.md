@@ -57,7 +57,7 @@ Going far beyond simple classification labels, the system utilizes the LLM's vas
 
 
 ### 5. Conversational Fault Analysis
-Users are not restricted to predefined UI buttons; they can utilize the chat interface to query the system regarding specific historical anomalies. By utilizing natural language prompts (e.g., *"Check what is inside the test metadata file for the most recent fault"* or *"Run the fault diagnosis model for the 3rd data sample"*), the LLM utilizes Function Calling to dynamically invoke the required Python analysis tools. It retrieves the exact event logs and renders customized diagnostic analyses on the fly, allowing for deep-dive investigations into specific timestamps.
+Users are not restricted to predefined UI buttons; they can utilize the chat interface to query the system regarding specific historical anomalies. By utilizing natural language prompts (e.g., *"Check what is inside the test metadata file for the most recent fault"*), the LLM utilizes Function Calling to dynamically invoke the required Python analysis tools. It retrieves the exact event logs and renders customized diagnostic analyses on the fly, allowing for deep-dive investigations into specific timestamps.
 
 <img width="1230" height="640" alt="5 近况故障分析-1" src="https://github.com/user-attachments/assets/829894a0-3d27-4cdb-8706-bf7b28ca94e2" />
 
